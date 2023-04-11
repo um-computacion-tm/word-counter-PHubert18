@@ -6,7 +6,8 @@ class TestCountLetters(unittest.TestCase):
         self.assertEqual(result, {'a': 1})
     def test_simple2(self):
         result = count_letters('b')
-        self.assertEqual(result, {'b': 1})    def test_complex(self):
+        self.assertEqual(result, {'b': 1})    
+    def test_complex(self):
         result = count_letters('aaabcd')
         self.assertEqual(
             result,
